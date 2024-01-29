@@ -16,8 +16,7 @@ export function request({
   let defaultOption = {
     // 请求失败消息参数
     showErrorMessage: true,
-    useErrorResMessage: true,
-    customErrorMessage: "操作失败",
+    customErrorMessage: "",
     // 请求成功消息参数
     showSuccessMessage: false,
     useSuccessResMessage: false,
